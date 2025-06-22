@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark">
+  <!-- Background Overlay -->
+  <div class="background-overlay"></div>
+
+  <!-- Header with Settings Button -->
+  
+    <div class="header fade-in">
+    <button class="settings-btn">⚙️</button>
+  </div>
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="time fade-in" id="time"></div>
+    <div class="date fade-in delayed-1" id="date"></div>
+
+    <div class="search-container fade-in delayed-2">
+      <input type="text" class="search-bar" placeholder="Search or enter website name">
+    </div>
+
+    <div class="favorites-container">
+      <!-- Favorites will be added here dynamically -->
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="settings-modal">
+    <div class="settings-content">
+        <div class="settings-header">
+        <div class="settings-title">Deeptab</div>
+        <button class="close-btn">✕</button>
+      </div>
+      <div class="settings-header">
+        <div class="settings-title">Settings</div>
+      </div>
+
+      <div class="settings-section">
+        <div class="settings-section-title">Appearance</div>
+        <div class="theme-options">
+          <div class="theme-option" data-theme="light">Light</div>
+          <div class="theme-option active" data-theme="dark">Dark</div>
+          <div class="theme-option" data-theme="system">System</div>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <div class="settings-section-title">Background</div>
+        <div class="slider-control">
+          <div class="slider-label">Blur Amount</div>
+          <input type="range" min="0" max="20" value="5" class="slider-input" id="blur-slider">
+          <div class="slider-value" id="blur-value">5px</div>
+        </div>
+        <div class="slider-control">
+          <div class="slider-label">Brightness</div>
+          <input type="range" min="20" max="120" value="80" class="slider-input" id="brightness-slider">
+          <div class="slider-value" id="brightness-value">80%</div>
+        </div>
+        <div class="slider-control">
+          <div class="slider-label">Overlay Opacity</div>
+          <input type="range" min="0" max="80" value="40" class="slider-input" id="overlay-slider">
+          <div class="slider-value" id="overlay-value">40%</div>
+        </div>
+        <div class="settings-section">
+  <div class="settings-section-title">Quick Links</div>
+  <div class="settings-section-subtitle">Changes save automatically</div>
+  <div id="favorites-editor" class="favorites-editor"></div>
+  <div class="favorites-actions">
+    <button id="add-favorite-btn">Add Link</button>
+  </div>
+</div>
+
+      </div>
+
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
