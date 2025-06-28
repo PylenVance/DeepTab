@@ -14,3 +14,14 @@ How to Install the newtab extention:
   
   4. Done
   Your extension is now running in Chrome.
+
+
+Features:
+  Auto-changing background
+  Simple configuration container
+  Customizable links
+  Smooth animations
+  Dark/Light mode
+  More soon...
+
+  ![image](https://github.com/user-attachments/assets/ef4e738c-d09f-4603-952a-669fdf4961a1)
