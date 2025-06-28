@@ -1,7 +1,7 @@
 How to Install the newtab extention:
   1. Download the Project
     Clone it:
-    git clone https://github.com/yourusername/your-extension.git
+    git clone https://github.com/PylenVance/DeepTab
     Or download and extract the ZIP file.
   
   2. Add It to Chrome
