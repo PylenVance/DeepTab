@@ -17,11 +17,11 @@ How to Install the newtab extention:
 
 
 Features:
-  Auto-changing background
-  Simple configuration container
-  Customizable links
-  Smooth animations
-  Dark/Light mode
+  Auto-changing background,
+  Simple configuration container,
+  Customizable links,
+  Smooth animations,
+  Dark/Light mode,
   More soon...
 
   ![image](https://github.com/user-attachments/assets/ef4e738c-d09f-4603-952a-669fdf4961a1)
